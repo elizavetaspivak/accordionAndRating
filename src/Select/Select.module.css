@@ -1,0 +1,23 @@
+.select h3.main {
+    border: 1px solid black;
+    display: inline-block;
+    min-height: 20px;
+    min-width: 80px;
+}
+.select {
+    width: 80px;
+    outline: none;
+}
+
+.items{
+    width: 70px;
+    position: absolute;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.item.selected{
+    background-color: #1ea7fd;
+    color: white;
+}
+
